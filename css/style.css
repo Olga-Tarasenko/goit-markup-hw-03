@@ -226,6 +226,7 @@ a {
 .team-photo {
   width: 264px;
   height: 260px;
+  display: block;
 }
 
 .team-subtitle {
@@ -250,6 +251,9 @@ a {
 
 .portfolio-box {
   padding: 32px 16px;
+  border-right: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
 }
 
 .portfolio-list {
@@ -260,13 +264,13 @@ a {
 }
 
 .portfolio-item {
-  border: 1px solid #e7e9fc;
   width: ((100%-48)/3);
 }
 
 .portfolio-img {
   width: 360px;
   height: 300px;
+  display: block;
 }
 .portfolio-subtitle {
   margin-bottom: 8px;
