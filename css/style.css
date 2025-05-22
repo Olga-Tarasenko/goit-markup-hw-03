@@ -6,7 +6,7 @@ body {
 
 .container {
   max-width: 1158px;
-  padding: 0 15;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -165,16 +165,16 @@ a {
   background-color: #4d5ae5;
   display: block;
   border-radius: 4px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   margin: 0 auto;
   border: none;
+  cursor: pointer;
 }
 
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
-  cursor: pointer;
 }
 
 /* about */
@@ -197,7 +197,7 @@ a {
 }
 
 .about-item {
-  width: ((100%-72)/4);
+  width: calc((100% - 72px) / 4);
 }
 
 /* our team */
@@ -211,7 +211,7 @@ a {
   margin-bottom: 72px;
 }
 .team-box {
-  padding: 32px;
+  padding: 32px 0;
 }
 
 .team-list {
@@ -221,7 +221,7 @@ a {
 .team-item {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
-  width: ((100%-72)/4);
+  width: calc((100% - 72px) / 4);
 }
 .team-photo {
   width: 264px;
@@ -264,7 +264,7 @@ a {
 }
 
 .portfolio-item {
-  width: ((100%-48)/3);
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-img {
